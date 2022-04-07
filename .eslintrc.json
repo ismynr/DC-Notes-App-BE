@@ -13,6 +13,10 @@
     },
     "rules": {
         "linebreak-style": ["error", "windows"],
-        "no-console": "off"
+        "no-console": "off",
+        "camelcase": ["error", {"properties": "never", "ignoreDestructuring": true}],
+        "semi": ["error", "always"],
+        "no-cond-assign": ["error", "always"],
+        "no-underscore-dangle": "off"
     }
 }
