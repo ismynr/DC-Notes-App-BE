@@ -63,7 +63,7 @@ class CollaborationsHandler {
           status: 'fail',
           message: error.message,
         });
-        response.code(error.statusCOde);
+        response.code(error.statusCode);
         return response;
       }
       // Server ERROR!
